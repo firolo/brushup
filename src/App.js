@@ -1,5 +1,6 @@
 import './App.css';
 import { useState } from "react";
+import { LookUpForm } from './components/LookUpForm';
 
 function App() {
   const [phVerb, setphVerb] = useState("phrasal verb");
@@ -37,6 +38,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Brush up</h1>
+        <LookUpForm></LookUpForm>
         <button onClick={chooseNewPHVerb}>New phrasal verb</button>
         <p style={statePh}>{phVerb}:</p>
         <button onClick={showAnswer}>show answer</button>
