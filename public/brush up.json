@@ -1,1 +1,40 @@
-[{"word":"brush up","phonetics":[{"audio":"https://api.dictionaryapi.dev/media/pronunciations/en/brush%20up-au.mp3","sourceUrl":"https://commons.wikimedia.org/w/index.php?curid=75944105","license":{"name":"BY-SA 4.0","url":"https://creativecommons.org/licenses/by-sa/4.0"}}],"meanings":[{"partOfSpeech":"verb","definitions":[{"definition":"To paint, or make clean or bright with a brush.","synonyms":[],"antonyms":[]},{"definition":"To review; to improve an existing but rusty or underdeveloped skill.","synonyms":[],"antonyms":[],"example":"I'll need to brush up (on) my Greek before my trip to Athens."}],"synonyms":[],"antonyms":[]}],"license":{"name":"CC BY-SA 3.0","url":"https://creativecommons.org/licenses/by-sa/3.0"},"sourceUrls":["https://en.wiktionary.org/wiki/brush%20up"]}]
+[
+  {
+    "word": "brush up",
+    "phonetics": [
+      {
+        "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/brush%20up-au.mp3",
+        "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=75944105",
+        "license": {
+          "name": "BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "meanings": [
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          {
+            "definition": "To paint, or make clean or bright with a brush.",
+            "synonyms": [],
+            "antonyms": []
+          },
+          {
+            "definition": "To review; to improve an existing but rusty or underdeveloped skill.",
+            "synonyms": [],
+            "antonyms": [],
+            "example": "I'll need to brush up (on) my Greek before my trip to Athens."
+          }
+        ],
+        "synonyms": [],
+        "antonyms": []
+      }
+    ],
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "sourceUrls": ["https://en.wiktionary.org/wiki/brush%20up"]
+  }
+]
