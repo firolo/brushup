@@ -2,24 +2,25 @@ import { useState } from "react";
 import { Definition } from "./Definition";
 
 export function LookUpForm() {
-    const [definition, setDefinition] = useState("clear")
+    const [definition, setDefinition] = useState([])
     const [word, setWord] = useState("")
-    //const [wordToLookUp, setWordToLookUp] = useState("")
     
     function lookup(wordToLookUp) {
         fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${wordToLookUp}`)
         .then(response => response.json())
         .then(data => {
             console.log(data)
-            setDefinition(data[0])})
+            setDefinition([data[0]])})
+            console.log(definition)
         }
 
     function lookupTest(wordToLookUp) {
         fetch(`/entries/en/test`)
         .then(response => response.json())
         .then(data => {
-            console.log(data)
-            setDefinition(data[0])})
+            const arr = [data[0]]
+            setDefinition(arr)})
+            console.log('lookuptest'+definition)
         }
 
 
@@ -39,7 +40,7 @@ export function LookUpForm() {
                 onKeyDown={handleKeyDown}
             />
             <button onClick={()=>{lookup(word)}}>Search</button>
-            <Definition def={definition}></Definition>
+            {definition.map( e => <Definition def={e}></Definition>)}
         </>
     )
 }

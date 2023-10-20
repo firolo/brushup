@@ -2,3 +2,14 @@
 {
     display : block;
 }
+
+.title-def
+{
+    display : block;
+    font-weight: bold;
+}
+
+.example
+{
+    font-style: italic;
+}
