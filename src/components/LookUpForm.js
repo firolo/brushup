@@ -15,7 +15,7 @@ export function LookUpForm() {
         }
 
     function lookupTest(wordToLookUp) {
-        fetch(`/entries/en/test`)
+        fetch(`/entries/en/${wordToLookUp}`)
         .then(response => response.json())
         .then(data => {
             const arr = [data[0]]
